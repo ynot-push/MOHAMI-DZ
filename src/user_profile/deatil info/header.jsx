@@ -23,7 +23,7 @@ function Header() {
       <nav className="main_nav">
         <ul>
           <li><a><Link to="/Home">Home</Link></a></li>
-          <li><a><Link to="/Lawyer_directory">Lawyer directory</Link></a></li>
+          <li><a><Link to="/find-a-lawyer">Find a Lawyer</Link></a></li>
           <li><a><Link to="/About_us">About Us</Link></a></li>
           <div className="button_container">
            <Link to="/login"> <button className="subs_button">

@@ -4,7 +4,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 // client-facing pages
 import AboutApp from './user_profile/About/about_app';
 import HomeApp from './user_profile/home page/home_page_app';
-import LawyerDirectoryApp from "./user_profile/lawyery directory/lawyerderectory_app";
+import FindLawyerApp from "./user_profile/find-a-lawyer/FindLawyerApp";
 import Result from "./user_profile/resutl_page/result_app";
 import DeatailApp from "./user_profile/deatil info/detail_app";
 import ReviewApp from "./user_profile/review lawyer/review_app";
@@ -22,7 +22,8 @@ function App() {
         <Route path="/" element={<HomeApp />} />
         <Route path="/Home" element={<HomeApp />} />
         <Route path="/About_us" element={<AboutApp />} />
-        <Route path="/Lawyer_directory" element={<LawyerDirectoryApp />} />
+        <Route path="/Lawyer_directory" element={<FindLawyerApp />} />
+        <Route path="/find-a-lawyer" element={<FindLawyerApp />} />
         <Route path="/result" element={<Result />} />
         <Route path="/Detail_App" element={<DeatailApp />} />
         <Route path="/review" element={<ReviewApp />} />

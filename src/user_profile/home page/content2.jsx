@@ -4,7 +4,7 @@ function Content2() {
   return (
       <div className="cards_container">
         <div className="side_container">
-           <h1 className="title"> <span className="w1">PRACTICE</span> AREAS</h1>     
+           <h1 className="title"><span className="w1">PRACTICE</span> <span className="w2">AREAS</span></h1>
            <h2> The principale Practice Areas</h2>  
            </div>
         <div className="element_container"> 

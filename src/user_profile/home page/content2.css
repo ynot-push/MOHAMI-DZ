@@ -17,8 +17,16 @@
   padding-top: 130px;
   font-family:'Raleway', sans-serif;;
   font-size: 42px;
-  width: 200px;
-margin-left: 120px;
+  line-height: 1.15;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 12px;
+  width: auto;
+  max-width: 400px;
+  white-space: normal;
+  box-sizing: border-box;
+  margin-left: 120px;
+  margin-right: 20px;
 }
 .side_container h2{
   color: rgb(0, 48, 91);
@@ -29,7 +37,10 @@ margin-left: 120px;
   margin-top: 50px;
 }
 .side_container .w1{
-  font-weight: bold;
+  font-weight: 800;
+}
+.side_container .w2{
+  font-weight: 400;
 }
 .element_container{
   display: grid;
