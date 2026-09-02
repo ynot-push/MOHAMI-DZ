@@ -1,0 +1,75 @@
+.content1{
+    height: 620px;
+    margin-top: 80px;
+}
+.hero_container{
+ position:absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    max-width: 100%;
+    background-color: rgba(0, 48, 91,0.65);
+    width: 530px;
+    box-sizing: border-box;
+    padding: 0 40px 0 80px;
+}
+.cont2{
+    margin-top: 150px;
+    max-width: 100%;
+}
+.cont2 h1{
+color: white;
+font-size: 42px;
+line-height: 1.2;
+
+}
+.cont2 p{
+    margin-top: 20px;
+    color: white;
+    max-width: 300px;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.cont2 button{
+    margin-top: 10px;
+    padding: 8px 40px;
+     font-size: 22px;
+     font-weight: bold;
+     color: rgb(53, 121, 183);
+     background-color:white ;
+     border: none;
+     width: 220px;
+     transition: 0.2s ease;
+     cursor: pointer;
+     font-family:Arial, Helvetica, sans-serif, serif; 
+     transition: 0.3 ease;
+}
+.cont2 button:hover{
+  transform:scale(1.05);
+    background-color:rgb(224, 226, 228) ;
+}
+.back_img{
+height: 100%;
+width: 100%;
+object-fit: cover;
+display: block;
+}
+.ssection_1{
+position: relative;
+height: 100%;
+}
+@media screen and (max-width: 600px){
+  .content1{
+    height: 500px;
+  }
+  .hero_container{
+    width: 100%;
+    padding: 0 24px;
+  }
+  .cont2{
+    margin-top: 100px;
+  }
+  .cont2 h1{
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,41 @@
+/*hada fih design ta3 about*/
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+  margin: 0;
+  font-family: "Quicksand";
+}
+
+/* ... other styles ... */
+
+.about-us {
+  background-color: #00305b;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 5%;
+  margin-top:80px ;
+}
+.par-content {
+  margin-top: 3%;
+}
+
+.paragraph {
+  max-width: 600px; /* Optional: Set a max-width for better readability, adjust as needed */
+  margin: 0 auto; /* Center the .paragraph horizontally */
+}
+
+.about-us h2,
+.about-us p {
+  color: white;
+}
+
+p {
+  font-size: 20px;
+  width: 100%; /* Adjust the width as needed */
+  margin: 15px 0; /* Add margin to separate paragraphs, adjust as needed */
+}
+
+/* ... other styles ... 
+
+*/

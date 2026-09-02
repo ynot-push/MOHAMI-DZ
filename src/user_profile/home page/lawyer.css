@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    font-family: 'K2D',sans-serif;
+
+}
+.cardD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+   
+}
+.cardD a{
+    text-decoration: none;
+}
+.card{
+    position: relative;
+    border-radius:20px ;
+    height: 450px;
+    width: 300px;
+    box-shadow: 0 10px  20px rgba(0,0,0,0.1) ;
+    transition: 0.3s ease ;
+}
+.card:hover{
+transform: scale(1.05);
+}
+.card .card-contennt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    padding-top: 30px;
+    position: relative;
+  
+}
+.card .image{
+height: 200px;
+width: 200px;
+padding: 3px;
+ border-radius: 50%;
+ box-shadow: 0px -1px 4px 2px  rgba(0, 0, 0, 0.25);
+}
+.card .image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid white;
+
+   }
+.card .name-spec{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    
+}
+.card .contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 0px;
+  
+}
+.line {
+    margin: 10px 0; 
+    border: none;
+    border-top: 1px solid #ccc;
+  }
+  .link_to{
+    text-decoration: none;
+}

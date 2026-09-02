@@ -1,0 +1,135 @@
+body{
+    background-color: white;
+}
+.containerjjj{
+    margin-top: 200px;
+    margin-left: 100px;
+    margin-top: 50px;
+    background-color: white;
+}
+.Lawyer_info{
+    display: flex;
+     flex-direction: row;
+    margin-bottom: 30px;
+    border: 0.5 rgb(131, 183, 230) solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: rgb(234, 244, 246);
+    width: 600px;
+    padding: 20px 30px;
+}
+.infoo{
+    margin-top: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    font-size: 19px;
+    flex-direction: column;
+    column-gap: 10px;
+}
+.infoo p{
+    margin-bottom: 4px;
+}
+.containerjjj h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+   font-weight: 500;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+.profile_back{
+    color:rgb(121, 202, 236);
+    transition: 0.3s ease;
+    cursor: pointer;
+    font-size: 18px;
+}
+.profile_back:hover{
+color: rgb(0, 87, 125);
+}
+.p2{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.review_text{
+    padding: 10px 10px;
+    outline:none;
+    border:1px grey solid ;
+    width: 450px;
+    height: 150px;
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 50px;
+    padding: 10px 10px;
+     font-size: 15px;
+     width: 130px;
+     color: white;
+     background-color: rgb(53, 121, 183);
+     border: none;
+     transition: 0.2s ease;
+     cursor: pointer;
+     font-family:'Noticia Text', serif; ;
+}
+.submit:hover{
+    background-color: rgb(131, 183, 230);
+ cursor: pointer;
+}
+.recommendation{
+
+}
+.oprtion{
+
+
+}
+.oprtion input{
+width: 130px;
+margin-bottom: 20px;
+}
+.lawyer_imagee{
+ width: 160px;
+ margin-right: 30px;
+ border-radius: 10px;
+}
+.locationn{
+    display: flex;
+    flex-direction: row;
+}
+.education_bio{
+    display: flex;
+    flex-direction: row;
+}
+.name{
+    font-size: 22px;
+    font-weight: bold;
+}
+.star:hover {
+    transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out;
+}
+
+.Stars {
+    display: inline-flex; 
+    align-items: center; 
+}
+.star:hover {
+    transform: scale(1.1); 
+    transition: transform 0.2s ease-in-out;
+}
+
+.Stars {
+    cursor: pointer;
+    display: inline-flex; 
+    align-items: center;
+}
+.title{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: row;
+}
+.bare{
+margin-bottom: 30px;
+margin-top: 0;
+    margin-right: 8px;
+    height: 30px;
+    width: 8px;
+    background-color: rgb(0, 87, 125);
+}

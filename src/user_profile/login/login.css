@@ -1,0 +1,137 @@
+.login_page{
+  min-height: calc(100vh - 80px);
+  margin-top: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(234, 244, 246);
+  padding: 60px 20px;
+  box-sizing: border-box;
+}
+.login_card{
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 10px 30px rgba(0, 48, 91, 0.12);
+  padding: 40px;
+  box-sizing: border-box;
+}
+.login_card h1{
+  color: rgb(0, 48, 91);
+  font-family: 'Raleway', sans-serif;
+  font-size: 28px;
+  margin: 0 0 8px 0;
+  text-align: center;
+}
+.login_subtitle{
+  color: rgb(53, 121, 183);
+  font-size: 15px;
+  text-align: center;
+  margin: 0 0 25px 0;
+}
+.role_toggle{
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+.role_option{
+  flex: 1;
+  padding: 10px 0;
+  border: 1px solid rgb(53, 121, 183);
+  border-radius: 20px;
+  background: white;
+  color: rgb(53, 121, 183);
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+.role_option.active{
+  background-color: rgb(53, 121, 183);
+  color: white;
+  font-weight: 600;
+}
+.login_tabs{
+  display: flex;
+  border-bottom: 2px solid whitesmoke;
+  margin-bottom: 25px;
+}
+.login_tabs .tab{
+  flex: 1;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 2px solid transparent;
+  margin-bottom: -2px;
+  font-size: 16px;
+  font-family: 'Raleway', sans-serif;
+  color: rgb(0, 48, 91);
+  cursor: pointer;
+  opacity: 0.5;
+  transition: 0.2s ease;
+}
+.login_tabs .tab.active{
+  opacity: 1;
+  font-weight: 600;
+  border-bottom: 2px solid rgb(53, 121, 183);
+}
+.login_form{
+  display: flex;
+  flex-direction: column;
+}
+.field{
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 18px;
+}
+.field label{
+  color: rgb(0, 48, 91);
+  font-size: 14px;
+  margin-bottom: 6px;
+  font-family: 'Open Sans', sans-serif;
+}
+.field input{
+  padding: 10px 12px;
+  border: 1px solid rgb(210, 220, 226);
+  border-radius: 4px;
+  font-size: 15px;
+  box-sizing: border-box;
+  transition: border-color 0.2s ease;
+}
+.field input:focus{
+  outline: none;
+  border-color: rgb(53, 121, 183);
+}
+.field_error{
+  color: #c0392b;
+  font-size: 13px;
+  margin-top: 5px;
+}
+.login_success{
+  color: #1e7d34;
+  font-size: 14px;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+.login_submit{
+  margin-top: 10px;
+  padding: 12px 0;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: rgb(53, 121, 183);
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  font-family: 'Raleway', sans-serif;
+}
+.login_submit:hover{
+  background-color: rgb(0, 48, 91);
+}
+@media screen and (max-width: 480px){
+  .login_card{
+    padding: 28px 20px;
+  }
+}

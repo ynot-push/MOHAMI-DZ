@@ -1,0 +1,67 @@
+.cards_container{
+  display: grid;
+  grid-template-columns: 530px 1fr;
+  gap: 40px;
+  border-bottom: 5px black;
+  z-index: 100;
+  background-color: white;
+}
+.side_container{
+    height: 750px;
+    background-color: rgb(234, 244, 246);
+    width: 100%;
+    box-sizing: border-box;
+}
+.side_container h1{
+  color: rgb(0, 48, 91);
+  padding-top: 130px;
+  font-family:'Raleway', sans-serif;;
+  font-size: 42px;
+  width: 200px;
+margin-left: 120px;
+}
+.side_container h2{
+  color: rgb(0, 48, 91);
+  font-family:'Raleway', sans-serif;;
+  font-size: 25px;
+  width: 300px;
+  margin-left: 120px;
+  margin-top: 50px;
+}
+.side_container .w1{
+  font-weight: bold;
+}
+.element_container{
+  display: grid;
+  background: white;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 80px;
+  gap: 50px;
+  padding-left: 0px;
+}
+.element_container a{
+  font-size: 20px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 48, 91);
+  margin-bottom: 10px;
+  margin-left: 0px;
+}
+.element_container p{
+  font-size: 14px;
+  font-family: 'Open Sans', sans-serif;
+  color: rgb(0, 48, 91);
+ width: 100%;
+ margin-left: 0px;
+}
+.carre{
+  margin-top: 5px;
+ background-color: rgb(65, 183, 196);
+ height: 10px;
+ width: 10px;
+ vertical-align: top;
+}
+.contain{
+  display: grid;
+  grid-template-columns: 10px 1fr;
+column-gap: 20px;
+} 

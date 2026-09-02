@@ -1,0 +1,124 @@
+.containerrr{
+    background-color: white;
+}
+.schedule {
+    margin: 20px auto;
+    width: 90%;
+    overflow-x: auto;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th, td {
+    border: 1px solid rgb(234, 244, 246);
+    padding: 8px;
+    height: 30px;
+    text-align: center;
+}
+
+.table th {
+    background-color: rgb(0, 48, 91);
+    color: white;
+    text-align: center;
+}
+
+.table td {
+    text-align: center  ;
+    background-color: #fff;
+    min-width: 40px; 
+}
+
+.table th:first-child, td:first-child {
+    text-align: left;
+    background-color: rgb(234, 244, 246);
+}
+
+.table tr:nth-child(even) td {
+    background-color: rgb(234, 244, 246);
+}
+
+.inputs {
+    margin-right: 100px;
+    font-family: Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+
+select {
+    background-color: rgb(234, 244, 246);
+    color: rgb(0, 48, 91);
+    height: 35px;
+    border-radius: 0.5em;
+    padding: 5px 15px;
+    margin-top: 30px;
+    margin-left: 20px;
+    outline: none;
+}
+
+
+
+.btn1{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(0, 48, 91) ;
+    color: rgb(234, 244, 246);
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btn2{
+    margin-left: 20px;
+    margin-top: 40px;
+    width: 100px;
+    height: 30px;
+    border: none;
+    border-radius: 8px;
+    background-color:rgb(232, 17, 35) ;
+    color: rgb(234, 244, 246);
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn2,.btn1:hover{
+  opacity: 0.8;
+}
+.h1{
+    margin-top: 30px;
+    margin-left: 100px;
+    color: rgb(0, 48, 91);
+    font-size: 26px;
+    font-weight: 400;
+}
+.conatain{
+
+ margin-top: 30px;
+display: flex;
+margin-right: 200px;
+}
+.cony{
+    margin-left: 100px;
+    margin-top: 100px;
+}
+.cony h3{
+    margin-top: 8px;
+    font-size: 24px;
+    margin-left: 4px;
+}
+.title{
+    display: flex;
+    flex-direction: row;
+}
+.bare{
+margin-top: 5px;
+    margin-right: 8px;
+    height: 30px;
+    width: 8px;
+    background-color: rgb(0, 87, 125);
+}

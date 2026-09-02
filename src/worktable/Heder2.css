@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap');
+
+.page_header{
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 10;
+    border-bottom: 2px solid whitesmoke;
+    padding: 0 40px;
+    box-sizing: border-box;
+}
+.slogan{
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.slogan img{
+    width: 50px;
+    margin-right: 8px;
+}
+.logo{
+    font-weight: 550;
+    font-family: 'Noticia Text', serif;
+    font-size: 22px;
+    color: rgb(0, 48, 91);
+    text-decoration: none;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+.main_nav ul{
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.main_nav ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: rgb(0, 48, 91);
+    font-family: 'Noticia Text', serif;
+    letter-spacing: 0.05rem;
+}
+
+/* the small round avatar in the header that opens the account dropdown */
+header > .profile_img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    border: 2px solid rgb(234, 244, 246);
+    flex-shrink: 0;
+}
+
+/* account dropdown */
+.sub-menu-wrap{
+    position: absolute;
+    top: 80px;
+    right: 40px;
+    width: 260px;
+    max-height: 0;
+    overflow: hidden;
+    opacity: 0;
+    transition: max-height 0.25s ease, opacity 0.2s ease;
+    z-index: 20;
+}
+.sub-menu-wrap.open-menu{
+    max-height: 400px;
+    opacity: 1;
+}
+.sub-menu{
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 10px 30px rgba(0, 48, 91, 0.2);
+    padding: 20px;
+    margin-top: 10px;
+    box-sizing: border-box;
+}
+.user-info{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid whitesmoke;
+    margin-bottom: 10px;
+}
+.user-info .profile_img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
+}
+.user-info h5{
+    color: rgb(0, 48, 91);
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+}
+.button_sect{
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+.sub-menu-link{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 8px 6px;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    transition: background 0.2s ease;
+}
+.sub-menu-link:hover{
+    background-color: rgb(234, 244, 246);
+}
+.sub-menu-link img{
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+}
+.sub-menu-link p{
+    margin: 0;
+    color: rgb(0, 48, 91);
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px){
+    .page_header{
+        padding: 0 20px;
+    }
+    .sub-menu-wrap{
+        right: 20px;
+    }
+}

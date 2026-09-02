@@ -1,0 +1,64 @@
+.containerjj{
+    display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  position: relative;
+  padding-top: 70px;
+  background-color: whitesmoke;
+  height: 400px;
+}
+.subcontainer1{
+    padding-left:300px ;
+}
+.subcontainer1 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 48, 91);
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.subcontainer2 h3{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(0, 48, 91);
+    margin-bottom: 20px;
+    margin-left: -20px;
+}
+.subcontainer1 ul{
+    margin-bottom: 80px;
+}
+.subcontainer2 ul{
+    margin-bottom: 80px;
+}
+.subcontainer1 ul a{
+    font-family:'Raleway', sans-serif;
+    text-decoration: underline;
+    color: rgb(0, 48, 91);
+line-height: 25px;
+letter-spacing: 1px;
+font-size: 14px;
+}
+.subcontainer2 ul a{
+    font-family:'Raleway', sans-serif;
+    text-decoration: underline;
+    color: rgb(0, 48, 91);
+line-height: 25px;
+letter-spacing: 1px;
+font-size: 14px;
+}
+.subcontainer1 p{
+    font-family:'Raleway', sans-serif;
+    margin-left: -20px;
+    color: rgb(0, 48, 91);
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.subcontainer2 p{
+    font-family:'Raleway', sans-serif;
+    margin-left: -20px;
+    color: rgb(0, 48, 91);
+    letter-spacing: 1px;
+    font-size: 14px;
+}

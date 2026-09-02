@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+* {
+
+  font-family: "Quicksand";
+}
+body {
+  background-color: #dddddd;
+}
+
+/* Person styles*/
+.Person {
+  background-color: white;
+  margin-top: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  flex-direction: row;
+}
+.containern{
+  background-color: #dddddd;
+}
+.photo-profile {
+  height: 230px;
+  width: 350px;
+}
+.information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin: 1% 5%;
+}
+.information a {
+  cursor: pointer; /* Set the cursor to the default arrow */
+  text-decoration: none; /* Remove the underline */
+  color: #00305b; /* Inherit the text color from the parent */
+  font-size: 30px;
+  font-weight: bold;
+}
+.information h5 {
+  color: #00305b; /* Inherit the text color from the parent */
+  font-size: 20px;
+  font-weight: 500;
+}
+.information a,
+.information h5 {
+  margin-bottom: 10px;
+}
+
+.etiol {
+  display: flex;
+  flex-direction: row;
+}
+/*About*/
+.case {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 30px;
+  padding-top: 3px;
+}
+.case-type {
+  margin-top: 3%;
+  margin-left: 6%;
+}
+
+
+.case h5,
+.case h3,
+.case li {
+  color: #00305b;
+}
+.case h3 {
+  font-weight: bold;
+  font-size: 35px;
+}
+.case h5 {
+  font-weight: bold;
+  font-size: 20px;
+}
+/*map location*/
+
+.place {
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+ padding-left: 100px;
+ padding-top: 10px;
+ padding-bottom: 10px;
+}
+.review{
+  background-color: white;
+  margin-top: 50px;
+  margin-left: 7%;
+  margin-right: 7%;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+ padding-left: 100px;
+ padding-top: 15px;
+ padding-bottom: 10px;
+}
+.review h3{
+  color: #00305b;
+  font-weight: bold;
+  font-size: 35px; 
+}
+.review button{
+  margin-left: 700px;
+  margin-top: 10px;
+  padding: 10px;
+   font-size: 20px;
+   width: 170px;
+   color: white;
+   background-color: rgb(53, 121, 183);
+   border: none;
+   transition: 0.2s ease;
+   cursor: pointer;
+   font-family:'Noticia Text', serif; ;
+}
+.place h3 {
+  color: #00305b;
+  font-weight: bold;
+  font-size: 35px;
+}
+.map {
+  margin: 20px auto;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 3% auto;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+input[type="checkbox"] {
+  margin-left: 5px;
+}
+.bare1{
+margin-top: 8px;
+  margin-right: 8px;
+  height: 30px;
+  width: 8px;
+  background-color: rgb(0, 48, 91);
+}
+.title1{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+.Map{
+  margin-right: 200px;
+}
+.prs{
+  padding-top: 0;
+}
