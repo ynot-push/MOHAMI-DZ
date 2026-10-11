@@ -1,6 +1,6 @@
 # MOHAMI-DZ
 
-MOHAMI-DZ is a modern legal-services website built with React and Vite. It helps users discover lawyers, view profiles, compare options, and explore a clean, responsive experience for legal support.
+This repo is a frontend for MOHAMI-DZ , a modern legal-services website built with React and Vite. It helps users discover lawyers, view profiles, compare options, and explore a clean, responsive experience for legal support.
 
 ## Features
 - Lawyer directory and profile browsing
