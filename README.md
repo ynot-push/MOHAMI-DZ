@@ -10,10 +10,6 @@ MOHAMI-DZ is a modern legal-services website built with React and Vite. It helps
 - Responsive user-facing interface
 - Separate lawyer dashboard experience
 
-## Website preview
-
-![MOHAMI-DZ landing view](src/assets/images/Screenshot_2023-12-13_133009-removebg-preview.png)
-
 ## Run locally
 
 ```bash
