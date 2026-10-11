@@ -14,11 +14,6 @@ MOHAMI-DZ is a modern legal-services website built with React and Vite. It helps
 
 ![MOHAMI-DZ landing view](src/assets/images/Screenshot_2023-12-13_133009-removebg-preview.png)
 
-<div align="center">
-  <img src="src/assets/images/1.jpg" alt="MOHAMI-DZ preview 1" width="420" />
-  <img src="src/assets/images/2.jpg" alt="MOHAMI-DZ preview 2" width="420" />
-</div>
-
 ## Run locally
 
 ```bash
